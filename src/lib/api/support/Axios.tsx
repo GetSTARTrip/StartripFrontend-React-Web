@@ -23,7 +23,7 @@ const getAPI = async(url: string) => {
     .catch((error) => {
       console.log(error);
     });
-}
+};
 
 const postAPI = async (url: string, data: object) => {
   await axios
@@ -73,4 +73,4 @@ const deleteAPI = async (url: string) => {
     });
 };
 
-export { getAPI, postAPI, putAPI, deleteAPI }
+export { getAPI, postAPI, putAPI, deleteAPI };

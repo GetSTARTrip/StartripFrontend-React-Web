@@ -78,5 +78,6 @@
   },
   "resolutions": {
     "nth-check": "2.0.1"
-  }
+  },
+  "proxy": "http://localhost:8080"
 }
