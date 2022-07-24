@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { selector, useRecoilValue } from "recoil";
-import { getAPI } from "./support/Axios";
+import { getAPI } from "./support/axios";
 import { user } from "./support/urls";
 
 const getUserId = selector({

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { selector, useRecoilValue } from "recoil";
-import { getAPI } from "./support/Axios";
+import { getAPI } from "./support/axios";
 import { dashboard } from "./support/urls";
 
 const getDashboardList = selector({

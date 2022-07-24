@@ -9,7 +9,7 @@ const jwtToken = "";
 // };
 
 // paramatter additional needed:)
-const getAPI = async(url: string) => {
+const getAPI = async (url: string) => {
   await axios
     .get(url, {
       headers: {
