@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { selector, useRecoilValue } from "recoil";
-import { getAPI } from "./support/Axios";
-import { dashboard } from "./support/urls";
+import { getAPI } from "./axios";
+import { dashboard } from "./urls";
 
 const getDashboardList = selector({
   key: "dashboardlist",

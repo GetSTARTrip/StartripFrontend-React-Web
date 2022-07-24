@@ -1,9 +1,9 @@
 import * as React from "react";
 
-const ST_Loading = () => (
+const Loading = () => (
   <h3>
     Loading...
   </h3>
 );
 
-export default ST_Loading;
+export default Loading;

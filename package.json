@@ -24,11 +24,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "runvite": "vite",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts jest",
-    "eject": "react-scripts eject"
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "browserslist": {
     "production": [

@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from "react";
-import { getAPI } from "../api/support/axios";
-import {myschedule} from "../api/support/urls";
+import { getAPI } from "../../apis/support/axios";
+import {myschedule} from "../apis/urls";
 
 export default () => {
   const [list, getListSchedule] = useState();

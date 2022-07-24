@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { styled } from "@mui/material/styles";
-import { Container, Alert, AlertTitle, Grid, Paper, Box } from "@mui/material";
-import { ST_Container, ST_Title } from "../../components";
-import { AddButton } from "./component/AddButton";
-import { TitleText } from "./component/TitleText";
-import ContentCard from "./component/ContentCard";
+import { Alert, AlertTitle, Grid, Paper, Box } from "@mui/material";
+import { Container, Title } from "../../../components";
+import { AddButton } from "./AddButton";
+import { TitleText } from "./TitleText";
+import ContentCard from "./ContentCard";
 
 const ScheduleCource = () => {
 
@@ -30,7 +30,7 @@ const ScheduleCource = () => {
     
     return (
 
-        <ST_Container>
+        <Container>
             <TitleText/>
             <AddButton/>
             {
@@ -44,7 +44,7 @@ const ScheduleCource = () => {
                 />))
             }
             <AddButton/>
-        </ST_Container>
+        </Container>
     );
 };
 

@@ -1,9 +1,9 @@
-import Login from "./pages/Authorization/Login";
-import SignUp from "./pages/Authorization/SignUp";
-import Main from "./pages/Main/Main";
+import Login from "./pages/Login";
+import SignUp from "./pages/SignUp";
+import Main from "./pages/Main";
 import Place from "./pages/Place/Place";
 import { MySchedule } from "./pages/MySchedule/MySchedule";
-import { ScheduleCource } from "./pages/SchduleCource/ScheduleCource";
+import { ScheduleCource } from "./pages/SchduleCource/component/ScheduleCource";
 
 
 const routerData = [

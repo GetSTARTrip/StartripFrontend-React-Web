@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { styled } from "@mui/material/styles";
-import { Container, Alert, AlertTitle, Grid, Paper, Box, Typography } from "@mui/material";
-import { ST_Container, ST_Title } from "components";
+import { Alert, AlertTitle, Grid, Paper, Box, Typography } from "@mui/material";
+import { Container, Title } from "components";
 
 const ContentCard = ({ whereInfo, header, content, image, xs }) => {
   const Item = styled(Paper)(({ theme }) => ({
