@@ -14,6 +14,6 @@ export const theme = createTheme({
     borderRadius: 10,
   },
   typography: {
-    fontFamily: "Noto Sans KR",
+    fontFamily: "'Gowun Dodum', sans-serif",
   },
 });

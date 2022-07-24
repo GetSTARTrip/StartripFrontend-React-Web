@@ -7,15 +7,6 @@ export default function AppBarCmp() {
     return (
       <AppBar position="static">
           <Toolbar>
-            <IconButton
-              size="large"
-              edge="start"
-              color="inherit"
-              aria-label="menu"
-              sx={{ mr: 2 }}
-            >
-                <Menu />
-            </IconButton>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} onClick={()=>{navigate("/");}}>
                 스타-트립
             </Typography>

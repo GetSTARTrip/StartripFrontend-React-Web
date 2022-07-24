@@ -1,6 +1,6 @@
 import React from "react";
 import Typography from "@mui/material";
-import { ST_Title } from "components";
+import { ST_Title } from "../../components";
 import PlaceContent from "./PlaceContent";
 
 const Place = () => {

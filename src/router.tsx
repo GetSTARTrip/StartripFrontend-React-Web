@@ -1,6 +1,7 @@
-import Login from "./pages/Main/Authorization/Login";
-import SignUp from "./pages/Main/Authorization/SignUp";
+import Login from "./pages/Authorization/Login";
+import SignUp from "./pages/Authorization/SignUp";
 import Main from "./pages/Main/Main";
+import Place from "./pages/Place/Place";
 import { MySchedule } from "./pages/MySchedule/MySchedule";
 import { ScheduleCource } from "./pages/SchduleCource/ScheduleCource";
 
